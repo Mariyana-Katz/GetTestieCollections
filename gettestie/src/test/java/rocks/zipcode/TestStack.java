@@ -122,7 +122,6 @@ public class TestStack {
     public void TestVector1() {
         Vector<Integer> one = new Vector<>();
         one.add(23);
-        one.clone();
         assertEquals(false, one.equals(2));
     }
 
@@ -130,7 +129,6 @@ public class TestStack {
     public void TestTreeMap() {
         TreeMap map = new TreeMap<>();
         map.put(2, "lea");
-        map.firstKey();
         assertEquals(true, map.containsKey(2));
 
     }
@@ -210,6 +208,15 @@ public class TestStack {
                 return 0;
             }
         };
+
+
+
+
+
+
+
+
+
     }
 
 
